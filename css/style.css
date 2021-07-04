@@ -1,67 +1,39 @@
-* {
-    margin: 0;
-}
 body{
-    margin-top:100px;
+    background-image: url(../img/bk.png);
+    background-repeat: repeat-y;
+    background-size: 100%;
 }
-.header{
-
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 49%, rgba(235,167,98,1) 100%);
-    width:100%;
-    height: 100px;
-    border:1px solid black;
-    position:fixed;
-    top:0px; 
-     
+nav{
     
+    position:relative;
+    height:40px;
+    background-color: rgba(255, 255, 255, 0.75);
 }
-.header img{
-    float:left;
-    width:80px;
-    height: 80px;
-    margin-top:10px;
-    margin-left:5px;
-    border-radius: 50%;
-}
-#name{
-    float:left;
-    padding-top: 30px;
-    padding-left: 10px;
- line-height:35px;
-    
-}
-#name a{
-    font-family:Segoe UI;
-}
-
-.header a{
-    text-decoration: none;
-    color:#ffffff;
-    
-}
-
-.nav{
-   float:right;
-    margin-right:20px;
+nav ul{
    
+    text-align: center;
+    position:relative;
+    top:10px;
+    
 }
 
-.navL li{
+nav ul li{
     display:inline-block;
+    margin-left:50px;
     width:70px;
-    padding-top:50px;
+    border-left: 2px dotted #000000;
     
     
 }
-.navL li a{
-    font-size:17px;
- 
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight:900;
+    font-family: 'Raleway', sans-serif;
+
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #000000;
     
 }
-.navL li a:hover{
-    color:#000000;
-
-}
-
-
